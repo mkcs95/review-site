@@ -1,0 +1,27 @@
+/* If you want to add some styles, do it here -- 
+make sure to read the file into your index.html file! */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+
+/*.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}*/
+
+/*.container {
+		background-image: url('../images/Rose_goldIphoneBackground.jpg');
+		background-repeat: no-repeat;
+		width: 100%;
+		color: white; 
+
+}*/
+
+li {
+	background: #99CCFF;
+}
+
+
+

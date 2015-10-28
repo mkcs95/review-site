@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Parse intro</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		
+        <!-- Include parse library here -->
+       
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="lib/jquery.raty.js"></script>
+        <script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+        <script src="raty-fa/lib/jquery.raty-fa.js"></script>
+
+    </head>
+    <body>
+    	<div class="container">
+
+            <form id="post-form">
+                
+                <h1>Apple iPhone 6s - 64 GB - Rose Gold</h1>
+                <img src="../images/iphone_rosegold.jpeg" alt="IPhone" width = "415px" height = "230px">
+                <br/><br/>
+                <!-- This is the section for my stars -->
+                <div class="rating" id="stars">
+                    
+                </div>
+              
+                <br/>
+
+                <p>Here is where you could put a longer description of your item...</p>
+                <!--This is the section where the user types in the reviews -->
+                <label for= "review">Write a Review</label>
+                <input id = "review" class= "form-control"></input>
+                <label for= "description">What did you think of this?</label>
+                <input id = "description" class= "form-control"></input>
+                <br/>
+                <button type="submit" id="save">Save</button>                
+            </form>
+            <!--This is where all the reviews get posted -->
+            <form id="boxed">
+                <h2>Reviews</h2>
+                <h3>On average this product gets:</h3><p id = "starAvg"></p>
+                
+            </form>
+            
+<!--
+                <div class="form-group1">
+                    <label for="bandName">Band Name</label>
+                    <input type="text" class="form-control1" id="bandName">
+                </div>
+
+                <div class="form-group2">
+                    <label for="website">Website</label>
+                     <input type="text" class="form-control2" id="website">
+                </div>
+
+                <div class="form-group3">
+                    <label for="song">Best Song</label>
+                     <input type="text" class="form-control3" id="song">
+                </div>
+            Here is where you should build your form.  
+                You can make it look nicer with bootstrap classes like "form-input" 
+-->
+    	</div>
+        <!--This is where it forms a list of the reviews  -->
+        <div class="container">
+            <ol id="list">
+               
+            </ol>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="js/iphoneReview.js"></script>
+
+</html>
